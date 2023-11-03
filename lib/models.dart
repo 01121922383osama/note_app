@@ -1,8 +1,10 @@
-class NoteModels {
+class ModelsNotes {
   String title;
-  String descriptions;
-  NoteModels({
+  String description;
+  ModelsNotes({
     required this.title,
-    required this.descriptions,
+    required this.description,
   });
 }
+
+List<ModelsNotes> listNots = [];
