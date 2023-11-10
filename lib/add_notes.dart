@@ -58,6 +58,8 @@ class _AddNotesPageState extends State<AddNotesPage> {
               ),
               const SizedBox(height: 40),
               TextFormField(
+                maxLines: 4,
+                minLines: 1,
                 validator: (value) {
                   if (value!.isEmpty) {
                     return 'You should add description';
